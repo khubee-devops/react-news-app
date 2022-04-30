@@ -27,7 +27,7 @@ function App() {
           return (
             <div key={key} className='article' > 
               <h3 className='p-6 text-2xl font-bold'>{val.title}</h3>
-              <img src={val.imageUrl}/>
+              <img src={val.imageUrl} alt="text"/>
               <p className='p-4'>{val.summary}</p>
               <h4 className='pb-3'>{val.publishedAt}</h4>
               <button className='p-3 rounded-full bg-lime-500 hover:bg-lime-700 mb-3 drop-shadow-lg' onClick={()=>{
