@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:latest AS dev
 
 # set working directory
 WORKDIR /app
